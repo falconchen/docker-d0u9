@@ -1,5 +1,10 @@
 # youtube-dl-webui
 
+```
+docker run --name youtube-dl-webui -e PORT=5000 -v /mnt/sda4/yt:/tmp/youtube_dl -p \
+5000:5000 falconchen/arm64v8-youtube-dl-webui
+```
+
 ---
 
 Visit [GitHub](https://github.com/d0u9/youtube-dl-webui) for more details.
