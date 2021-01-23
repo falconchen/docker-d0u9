@@ -9,5 +9,11 @@
         "port": 5000
     },
     "youtube_dl": {
+	"format":"bestaudio/best",
+	"write-sub":"true",
+	"write-auto-sub":"true",
+	"sub-format":"ass/srt/best",
+	"sub-lang":"en",
+	"convert-subs":"srt"
     }
 }
